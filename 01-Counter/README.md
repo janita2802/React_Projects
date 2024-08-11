@@ -6,7 +6,6 @@ This React component demonstrates a simple counter application.
 
 ## Demo
 
-Insert gif or link to demo
 ![Alt text](Assets/Counter-Demo.gif)
 
 ## Features
@@ -58,9 +57,9 @@ Follow these instructions to set up and run the project locally.
 
 4. **Running the Project**
     
-    Once you have installed the dependencies, you can start the development server:
+    Once you have installed the dependencies, you can start the development server using the Vite command:
 
-    ``npm start``
+    ``npm run dev``
 
     This will open the project in your default browser, usually at http://localhost:3000.
 
