@@ -6,8 +6,7 @@ This React app allows users to dynamically change the background color of a page
 
 
 ## Demo
-
-![Alt text](assets/BgChangerApp.gif)
+![Alt text](src/assets/BgChangerApp.gif)
 
 ## Features
 
