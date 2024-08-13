@@ -1,6 +1,5 @@
 import { useState } from 'react'
 
-
 function App() {
   const [color, setColor] = useState("#FFFFFF");
   const [inputColor, setInputColor] = useState('#FFFFFF');
@@ -24,8 +23,9 @@ function App() {
 
 
   return (
-    <div className='w-full h-screen bg-slate-200 p-6 flex  place-content-center'>
-      <form className='bg-violet-300 p-20 shadow-lg w-max flex flex-col place-content-center'>
+    <div className='w-full bg-slate-200 p-6 flex  place-content-center h-screen'>
+      <form className='bg-violet-300 p-20 shadow-lg w-max'>
+        <h1 className=' bg-gradient-to-r from-orange-500 from-10% via-yellow-500 via-30%  to-pink-500 to-70% mb-16 text-transparent bg-clip-text text-center my-3 font-extrabold font-serif text-3xl'>Color Picker</h1>
         <div className='flex items-center'>
           <label className='font-semibold mx-1' htmlFor="colorinput">Enter HexaDecimal Value of color:</label>
           <input className='text-slate-700 border-2 border-black rounded-lg ml-2 px-2 w-32'placeholder="#FFFFFF" maxLength={7} id='colorinput' type='text'
