@@ -23,8 +23,8 @@ function App() {
 
 
   return (
-    <div className='w-full bg-slate-200 p-6 flex  place-content-center h-screen'>
-      <form className='bg-violet-300 p-20 shadow-lg w-max'>
+    <div className='w-full bg-slate-200 p-10 flex  place-content-center h-screen md:max-vh'>
+      <form className='bg-violet-300 p-5 shadow-lg w-max h-max'>
         <h1 className=' bg-gradient-to-r from-orange-500 from-10% via-yellow-500 via-30%  to-pink-500 to-70% mb-16 text-transparent bg-clip-text text-center my-3 font-extrabold font-serif text-3xl'>Color Picker</h1>
         <div className='flex items-center'>
           <label className='font-semibold mx-1' htmlFor="colorinput">Enter HexaDecimal Value of color:</label>
@@ -39,7 +39,7 @@ function App() {
         </div>
         <p className='text-red-600 underline my-4 text-center font-bold'>{error}</p>
         <p className='text-red-600 underline my-4 text-center font-semibold'>{note}</p>
-        <div className='h-48 w-48 border-4 border-black my-20 rounded-lg mx-auto flex justify-center items-center font-semibold ' style={{backgroundColor: color}}>
+        <div className='h-48 w-48 border-4 border-black my-20 rounded-lg mx-auto flex justify-center items-center font-semibold' style={{backgroundColor: color}}>
           <p className='bg-yellow-100 p-1 bg-opacity-20'>Preview</p>
         </div>
       </form>
