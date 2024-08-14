@@ -8,6 +8,13 @@ This React application is a clone of Facebook's login page, designed to demonstr
 Check out the live demo of the application here.
 https://fb-landing-page-react-tailwind.netlify.app/
 
+
+
+![Alt text](src/assets/App.PNG)
+
+![Alt text](src/assets/14.08.2024_10.40.41_REC.mp4)
+
+
 ## Features
 - **Responsive Design:** The layout adjusts seamlessly between different screen sizes, providing an optimal user experience on both mobile and desktop devices.
 
