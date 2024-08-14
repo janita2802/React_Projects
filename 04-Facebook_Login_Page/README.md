@@ -12,7 +12,7 @@ https://fb-landing-page-react-tailwind.netlify.app/
 
 ![Alt text](src/assets/App.PNG)
 
-![Alt text](src/assets/14.08.2024_10.40.41_REC.mp4)
+![small screen](src/assets/App.gif)
 
 
 ## Features
